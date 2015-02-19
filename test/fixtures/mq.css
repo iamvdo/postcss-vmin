@@ -1,0 +1,8 @@
+a {
+  color: #fff;
+}
+@media screen {
+  a {
+    width: 100vmin;
+  }
+}

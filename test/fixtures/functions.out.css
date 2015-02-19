@@ -1,0 +1,8 @@
+a {
+  width: calc(100vm - 1px);
+  width: calc(100vmin - 1px);
+}
+a {
+  background: linear-gradient(red 50vm, green);
+  background: linear-gradient(red 50vmin, green);
+}
