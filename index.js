@@ -6,8 +6,8 @@ module.exports = function (opts) {
     return function (css) {
 
       // for each rules, each decl
-      css.eachRule(function (rule) {
-        rule.eachDecl(function (decl, i) {
+      css.walkRules(function (rule) {
+        rule.walkDecls(function (decl, i) {
 
           if (decl.value.indexOf('vmin') === -1) { return; }
 
