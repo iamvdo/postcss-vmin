@@ -26,4 +26,4 @@ module.exports = postcss.plugin("postcss-vmin", = function (opts) {
       return css;
 
     };
-};
+});
