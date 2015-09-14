@@ -1,4 +1,6 @@
-module.exports = function (opts) {
+var postcss = require('postcss');
+
+module.exports = postcss.plugin("postcss-vmin", = function (opts) {
     opts = opts || {};
 
     var REGEX = /(\d*\.?\d+)vmin/ig;
@@ -24,7 +26,4 @@ module.exports = function (opts) {
       return css;
 
     };
-};
-module.exports.postcss = function (css) {
-    return module.exports()(css);
 };
