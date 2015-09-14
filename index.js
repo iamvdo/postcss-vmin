@@ -1,6 +1,6 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin("postcss-vmin", = function (opts) {
+module.exports = postcss.plugin("postcss-vmin", function (opts) {
     opts = opts || {};
 
     var REGEX = /(\d*\.?\d+)vmin/ig;
