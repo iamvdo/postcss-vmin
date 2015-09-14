@@ -10,7 +10,7 @@
         "url":  "https://github.com/iamvdo/postcss-vmin.git"
     },
     "dependencies": {
-        "postcss": "^4.0.3"
+        "postcss": "^5.0.0"
     },
     "devDependencies": {
         "jshint-stylish": "1.0.0",
